@@ -30,7 +30,7 @@ extension UIViewController {
         request.timeoutInterval = 10
         request.allHTTPHeaderFields = [
             "accept": "application/json",
-            "Authorization": "Bearer 6cLSIzeZ2vLddfBeXDlSgJjyLXaawc2pmp9xToiCOHiiATVfPa9PRQ7r0rraOUjv6T4vaqOlmPjeizz4TDvhPpKVUIqNjz_CtKlbzYkjX3KAmoklZ-Um2ApZtau4ZnYx"
+            "Authorization": "API-Key"
         ]
 
         Task {
